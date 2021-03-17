@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="window" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="madlibsProject.storyOpener">
+   <children>
+      <TextArea fx:id="storyOpeningSpace" layoutX="32.0" layoutY="57.0" prefHeight="287.0" prefWidth="536.0" />
+      <Text layoutX="115.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This space is for opening files, making edits to them, and saving them." />
+      <Button fx:id="open" layoutX="277.0" layoutY="361.0" mnemonicParsing="false" onAction="#openFile" text="Open" />
+      <Button fx:id="save" layoutX="527.0" layoutY="361.0" mnemonicParsing="false" onAction="#saveFile" text="Save" />
+      <Button fx:id="returnToHomeMenu" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#returnToHomeMenu" text="Return To Home Menu" />
+   </children>
+</AnchorPane>
